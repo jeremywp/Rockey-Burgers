@@ -34,7 +34,7 @@ body .container-fluid {
 .container {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   font-family: 'Oswald', sans-serif;
   margin-bottom: 90px; }
   .container p {
@@ -44,6 +44,12 @@ body .container-fluid {
     color: #E63600;
     font-size: 20px;
     padding-bottom: 10px; }
+  .container .sub-header {
+    font-size: 28px;
+    padding-bottom: 2px;
+    text-decoration: underline; }
+  .container .describe {
+    font-size: 20px; }
 
 .hero-main {
   background-image: url("../images/hero.jpg");

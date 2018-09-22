@@ -52,7 +52,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   font-family: 'Oswald', sans-serif;
   margin-bottom: 90px;
 
@@ -67,6 +67,15 @@ body {
     padding-bottom: 10px;
   }
 
+  .sub-header{
+    font-size: 28px;
+    padding-bottom: 2px;
+    text-decoration: underline;
+  }
+
+  .describe {
+    font-size: 20px;
+  }
 }
 
   .hero-main {
@@ -89,6 +98,7 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
   }
+
 
   .footer {
     position: absolute;
