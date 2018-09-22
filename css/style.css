@@ -1,10 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald");
 body, html {
-  height: 100%; }
+  height: 100%;
+  background-color: #FFB00D; }
 
 .navbar-expand-lg {
   display: flex;
   justify-content: space-between;
   background-color: #E63600; }
+
+.nav-item {
+  color: black; }
 
 .navbar-collapse {
   display: flex;
@@ -17,15 +22,23 @@ body .container-fluid {
   display: flex;
   justify-content: center; }
 
+body .slogan {
+  font-family: 'Oswald', sans-serif; }
+
 .hero {
   background-image: url("../images/hero.jpg");
   background-size: cover;
   height: 50%;
   background-position: center; }
 
-.fixed-bottom .bottomnav {
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
+
+.bottomnav {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly; }
-  .fixed-bottom .bottomnav .bottom-item {
+  .bottomnav .bottom-item {
     padding: 10px 20px; }
