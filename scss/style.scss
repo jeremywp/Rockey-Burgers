@@ -26,24 +26,34 @@ body {
       height: 100px;
     }
   }
-  .container-fluid{
-      display: flex;
-      justify-content: center;
-  }
-  .slogan{
+  .container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Oswald', sans-serif;
   }
 }
 
-
-
-.hero{
+.hero-main{
   background-image: url("../images/hero.jpg");
   background-size: cover;
   height: 50%;
   background-position: center;
 }
 
+.hero{
+  background-image: url("../images/hero.jpg");
+  background-size: cover;
+  height: 30%;
+  background-position: center;
+}
+
+.map{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
 .footer{
   position: absolute;
