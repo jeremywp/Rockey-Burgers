@@ -1,0 +1,35 @@
+body, html {
+  height: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #E63600;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: flex-end;
+}
+
+body {
+  nav{
+    img {
+      height: 100px;
+    }
+  }
+  .container-fluid{
+      display: flex;
+      justify-content: center;
+  }
+}
+
+
+
+.hero{
+  background-image: url("../images/hero.jpg");
+  background-size: cover;
+  height: 50%;
+  background-position: center;
+}
