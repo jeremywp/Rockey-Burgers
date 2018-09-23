@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald");
 body, html {
+  margin: auto 0;
+  padding: auto 0;
   height: 100%;
   background-color: #FFB00D; }
 
@@ -43,7 +45,8 @@ body .container-fluid {
     text-align: center;
     color: #E63600;
     font-size: 20px;
-    padding-bottom: 10px; }
+    padding-bottom: 10px;
+    padding-right: 30px; }
   .container .sub-header {
     font-size: 28px;
     padding-bottom: 2px;
@@ -54,6 +57,9 @@ body .container-fluid {
     padding-bottom: 2px; }
   .container .describe {
     font-size: 20px; }
+
+.about {
+  align-items: left; }
 
 .tab {
   padding-left: 7px; }
@@ -119,9 +125,8 @@ body .container-fluid {
 
 .fa {
   padding: 20px;
-  font-family: none, serif;
   font-size: 20px;
-  width: 50px;
+  width: 60px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px; }
