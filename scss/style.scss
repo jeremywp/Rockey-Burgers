@@ -71,10 +71,37 @@ body {
     font-size: 28px;
     padding-bottom: 2px;
     text-decoration: underline;
+    margin-top: 10px;
+  }
+
+  .sub-option{
+    font-size: 24px;
+    padding-bottom: 2px;
   }
 
   .describe {
     font-size: 20px;
+  }
+}
+
+.tab{
+  padding-left: 7px;
+}
+
+.click{
+  margin: 10px;
+}
+
+.menu-item{
+  align-items: flex-start;
+  font-size: 18px;
+  margin-top: 10px;
+  span{
+    font-size: 16px;
+  }
+  p{
+    font-size: 14px;
+    margin: 4px auto;
   }
 }
 
