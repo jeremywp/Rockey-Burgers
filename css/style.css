@@ -105,6 +105,31 @@ body .container-fluid {
 .card-row {
   flex-direction: row;
   justify-content: space-evenly;
+  align-items: center;
   margin-bottom: 30px; }
   .card-row .card-text {
     margin-bottom: 2px; }
+
+.social {
+  margin-top: 20px; }
+
+.icon-row {
+  flex-direction: row;
+  justify-content: space-between; }
+
+.fa {
+  padding: 20px;
+  font-family: none, serif;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px; }
+
+.fa-facebook {
+  background: #3B5998;
+  color: white; }
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white; }
