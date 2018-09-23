@@ -143,3 +143,11 @@ body {
     }
   }
 
+  .card-row{
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    .card-text{
+      margin-bottom: 2px;
+    }
+  }
